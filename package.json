@@ -1,0 +1,14 @@
+{
+  "name": "resume-analyser-mern",
+  "version": "1.0.0",
+  "description": "AI-powered Resume Analyser — MERN Stack",
+  "scripts": {
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install",
+    "dev": "concurrently \"cd server && npm run dev\" \"cd client && npm start\"",
+    "start": "cd server && npm start",
+    "build": "cd client && npm run build"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
